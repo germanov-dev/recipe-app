@@ -1,4 +1,5 @@
-![logo](https://user-images.githubusercontent.com/56675185/68745757-e9785c00-05ff-11ea-9714-f351735139b9.png)
+<img width="1440" alt="Screenshot 2019-11-13 at 10 25 09" src="https://user-images.githubusercontent.com/56675185/68745807-001eb300-0600-11ea-8adf-e97575fff535.png">
+
 
 
 # Recipe App
