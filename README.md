@@ -5,4 +5,4 @@
 
 Simple Recipe App using React.
 
-[Check the weather!](https://recipe-app.germanov.now.sh/)
+[Search for recipe!](https://germanov.js.org/recipe-app/)
