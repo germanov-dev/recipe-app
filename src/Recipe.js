@@ -1,4 +1,5 @@
 import React from 'react';
+import Nutrition from './Nutrition';
 import style from './recipe.module.css'
 
 const Recipe = ({title, calories, image, ingredients, nutritions}) => {
@@ -31,9 +32,11 @@ const Recipe = ({title, calories, image, ingredients, nutritions}) => {
 					{nutritions.map((nutrition, i) => {
 						if (i <= 2)
 						return (
-							<li key={`${nutrition} ${i}`}>
-								<strong>{nutrition.label}:</strong> {Math.floor(nutrition.total)}
-							</li>
+							<Nutrition
+								key={`${nutrition.label}-${nutrition.total}`}
+								label={nutrition.label}
+								total={nutrition.total}
+							/>
 						);
 					})}
 				</ul>
