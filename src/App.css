@@ -162,14 +162,24 @@ nav ol {
 	list-style: none outside none;
 }
 
+html {
+	font-size: 10px;
+}
+
 body {
 	background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
 	font-family: 'Annie Use Your Telescope', cursive;
-	font-size: 22px;
+	font-size: 2.2rem;
 }
 
 .App__container {
 	max-width: 900px;
 	margin: 0 auto;
-	padding: 30px 0;
+	padding: 3rem;
+}
+
+@media (max-width: 767px) {
+	html {
+		font-size: 8px;
+	}
 }
